@@ -1,6 +1,6 @@
 {
   "name": "planets-data",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Some basic data on planets",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -8,6 +8,7 @@
     "url": "git+https://github.com/robwalkerco/planets-data.git"
   },
   "scripts": {
+    "prepack": "yarn build",
     "build": "rimraf dist && tsc"
   },
   "author": "robwalkerco",
