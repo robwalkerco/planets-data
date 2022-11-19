@@ -1,0 +1,8 @@
+# Mac
+.DS_STORE
+
+# Node
+node_modules/
+dist/
+.npmrc
+yarn-error.log
